@@ -1,7 +1,7 @@
 import random
 
 def spin_row():
-    symbols = ['cher', 'wtr', 'lem', 'bel', 'str']
+    symbols = ['🍒', '🍉', '🍋', '🔔', '⭐️']
 
     return [random.choice(symbols) for _ in range(3)]
 
@@ -27,10 +27,10 @@ def get_payout(row, bet):
 def main():
     balance = 100
 
-    print("*****************************")
-    print("  Welcome to Liuty Gambling  ")
-    print("Symbols: cher wtr lem bel str")
-    print("*****************************")
+    print("*************************")
+    print("Welcome to Liuty Gambling")
+    print("Symbols: 🍒 🍉 🍋 🔔 ⭐️ ")
+    print("*************************")
 
     while balance > 0:
         print(f"Current balance: ${balance}")
@@ -77,3 +77,4 @@ def main():
 
 if __name__ == '__main__':
     main()
+
