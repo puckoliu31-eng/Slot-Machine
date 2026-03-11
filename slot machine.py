@@ -27,10 +27,10 @@ def get_payout(row, bet):
 def main():
     balance = 100
 
-    print("*************************")
-    print("Welcome to Liuty Gambling")
-    print("Symbols: 🍒 🍉 🍋 🔔 ⭐️ ")
-    print("*************************")
+    print("****************************")
+    print("Welcome to Liuty\'s Gambling")
+    print("Symbols: 🍒 🍉 🍋 🔔 ⭐️  ")
+    print("****************************")
 
     while balance > 0:
         print(f"Current balance: ${balance}")
@@ -77,4 +77,5 @@ def main():
 
 if __name__ == '__main__':
     main()
+
 
